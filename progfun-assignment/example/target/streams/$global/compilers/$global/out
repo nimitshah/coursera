@@ -1,0 +1,33 @@
+[0m[[0mdebug[0m] [0mGetting compiler-interface from component compiler for Scala 2.10.1[0m
+[0m[[0mdebug[0m] [0mOther repositories:[0m
+[0m[[0mdebug[0m] [0mDefault repositories:[0m
+[0m[[0mdebug[0m] [0m	FileRepository(local,FileConfiguration(true,None),sbt.Patterns@59d12b6a)[0m
+[0m[[0mdebug[0m] [0mOther repositories:[0m
+[0m[[0mdebug[0m] [0mDefault repositories:[0m
+[0m[[0mdebug[0m] [0m	FileRepository(local,FileConfiguration(true,None),sbt.Patterns@697de960)[0m
+[0m[[0minfo[0m] [0m'compiler-interface' not yet compiled for Scala 2.10.1. Compiling...[0m
+[0m[[0mdebug[0m] [0mPlain interface to Scala compiler 2.10.1  with arguments: [0m
+[0m[[0mdebug[0m] [0m	-nowarn[0m
+[0m[[0mdebug[0m] [0m	-d[0m
+[0m[[0mdebug[0m] [0m	C:\Users\nimit\AppData\Local\Temp\sbt_24cfb78[0m
+[0m[[0mdebug[0m] [0m	-bootclasspath[0m
+[0m[[0mdebug[0m] [0m	C:\Program Files\Java\jdk1.6.0_33\jre\lib\resources.jar;C:\Program Files\Java\jdk1.6.0_33\jre\lib\rt.jar;C:\Program Files\Java\jdk1.6.0_33\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.6.0_33\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.6.0_33\jre\lib\jce.jar;C:\Program Files\Java\jdk1.6.0_33\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.6.0_33\jre\lib\modules\jdk.boot.jar;C:\Program Files\Java\jdk1.6.0_33\jre\classes;C:\Users\nimit\.sbt\boot\scala-2.10.1\lib\scala-library.jar[0m
+[0m[[0mdebug[0m] [0m	-classpath[0m
+[0m[[0mdebug[0m] [0m	C:\Users\nimit\.sbt\boot\scala-2.9.2\org.scala-sbt\sbt\0.12.1\xsbti\interface-0.12.1.jar;C:\Users\nimit\.sbt\boot\scala-2.9.2\org.scala-sbt\sbt\0.12.1\compiler-interface-src\compiler-interface-src-0.12.1.jar;C:\Users\nimit\.sbt\boot\scala-2.10.1\lib\scala-compiler.jar;C:\Users\nimit\.sbt\boot\scala-2.10.1\lib\jline.jar;C:\Users\nimit\.sbt\boot\scala-2.10.1\lib\scala-reflect.jar;C:\Users\nimit\.sbt\boot\scala-2.10.1\lib\jansi.jar[0m
+[0m[[0mdebug[0m] [0m	C:\Users\nimit\AppData\Local\Temp\sbt_1d85adb\API.scala[0m
+[0m[[0mdebug[0m] [0m	C:\Users\nimit\AppData\Local\Temp\sbt_1d85adb\Analyzer.scala[0m
+[0m[[0mdebug[0m] [0m	C:\Users\nimit\AppData\Local\Temp\sbt_1d85adb\Command.scala[0m
+[0m[[0mdebug[0m] [0m	C:\Users\nimit\AppData\Local\Temp\sbt_1d85adb\CompilerInterface.scala[0m
+[0m[[0mdebug[0m] [0m	C:\Users\nimit\AppData\Local\Temp\sbt_1d85adb\ConsoleInterface.scala[0m
+[0m[[0mdebug[0m] [0m	C:\Users\nimit\AppData\Local\Temp\sbt_1d85adb\DelegatingReporter.scala[0m
+[0m[[0mdebug[0m] [0m	C:\Users\nimit\AppData\Local\Temp\sbt_1d85adb\Log.scala[0m
+[0m[[0mdebug[0m] [0m	C:\Users\nimit\AppData\Local\Temp\sbt_1d85adb\Message.scala[0m
+[0m[[0mdebug[0m] [0m	C:\Users\nimit\AppData\Local\Temp\sbt_1d85adb\ScaladocInterface.scala[0m
+[0m[[0minfo[0m] [0m  Compilation completed in 28.943 s[0m
+[0m[[0mdebug[0m] [0mOther repositories:[0m
+[0m[[0mdebug[0m] [0mDefault repositories:[0m
+[0m[[0mdebug[0m] [0m	FileRepository(local,FileConfiguration(true,None),sbt.Patterns@1404c803)[0m
+[0m[[0mdebug[0m] [0mGetting compiler-interface from component compiler for Scala 2.10.1[0m
+[0m[[0mdebug[0m] [0mOther repositories:[0m
+[0m[[0mdebug[0m] [0mDefault repositories:[0m
+[0m[[0mdebug[0m] [0m	FileRepository(local,FileConfiguration(true,None),sbt.Patterns@7761588b)[0m

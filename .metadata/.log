@@ -1,0 +1,342 @@
+!SESSION 2013-03-29 19:28:49.841 -----------------------------------------------
+eclipse.buildId=3.0.0-vfinal-20130326-1146-Typesafe
+java.version=1.6.0_33
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_GB
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.ui 4 4 2013-03-29 19:33:45.518
+!MESSAGE Invalid preference page path: XML Syntax
+!SESSION 2013-03-30 12:50:41.146 -----------------------------------------------
+eclipse.buildId=3.0.0-vfinal-20130326-1146-Typesafe
+java.version=1.6.0_33
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_GB
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.ui 4 4 2013-03-30 13:03:25.409
+!MESSAGE Invalid preference page path: XML Syntax
+!SESSION 2013-03-30 20:57:36.554 -----------------------------------------------
+eclipse.buildId=3.0.0-vfinal-20130326-1146-Typesafe
+java.version=1.6.0_33
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_GB
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.ui 4 4 2013-03-30 21:04:50.719
+!MESSAGE Invalid preference page path: XML Syntax
+
+!ENTRY org.scala-ide.sdt.core 4 0 2013-03-31 00:26:11.659
+!MESSAGE Error during instrumentation of ScriptCompilationUnit(L/hello-project/src/week1/balance.sc)
+!STACK 0
+org.scalaide.worksheet.runtime.ProgramInstrumentationFailed: Error during askInstrumented of unit balance.sc
+	at org.scalaide.worksheet.runtime.SourceInstrumenter.instrumentProgram(SourceInstrumenter.scala:38)
+	at org.scalaide.worksheet.runtime.SourceInstrumenter.instrument(SourceInstrumenter.scala:21)
+	at org.scalaide.worksheet.runtime.WorksheetRunner$$anonfun$act$1$$anonfun$apply$1.applyOrElse(WorksheetRunner.scala:59)
+	at scala.runtime.AbstractPartialFunction$mcVL$sp.apply$mcVL$sp(AbstractPartialFunction.scala:33)
+	at scala.runtime.AbstractPartialFunction$mcVL$sp.apply(AbstractPartialFunction.scala:33)
+	at scala.runtime.AbstractPartialFunction$mcVL$sp.apply(AbstractPartialFunction.scala:25)
+	at scala.actors.ReactorTask.run(ReactorTask.scala:31)
+	at scala.actors.Reactor$class.resumeReceiver(Reactor.scala:129)
+	at org.scalaide.worksheet.runtime.WorksheetRunner.scala$actors$InternalReplyReactor$$super$resumeReceiver(WorksheetRunner.scala:33)
+	at scala.actors.InternalReplyReactor$class.resumeReceiver(InternalReplyReactor.scala:59)
+	at org.scalaide.worksheet.runtime.WorksheetRunner.resumeReceiver(WorksheetRunner.scala:33)
+	at scala.actors.InternalActor$class.searchMailbox(InternalActor.scala:76)
+	at org.scalaide.worksheet.runtime.WorksheetRunner.searchMailbox(WorksheetRunner.scala:33)
+	at scala.actors.Reactor$$anonfun$startSearch$1$$anonfun$apply$mcV$sp$1.apply$mcV$sp(Reactor.scala:117)
+	at scala.actors.Reactor$$anonfun$startSearch$1$$anonfun$apply$mcV$sp$1.apply(Reactor.scala:114)
+	at scala.actors.Reactor$$anonfun$startSearch$1$$anonfun$apply$mcV$sp$1.apply(Reactor.scala:114)
+	at scala.actors.ReactorTask.run(ReactorTask.scala:33)
+	at scala.actors.ReactorTask.compute(ReactorTask.scala:63)
+	at scala.concurrent.forkjoin.RecursiveAction.exec(RecursiveAction.java:160)
+	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:262)
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:975)
+	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1478)
+	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:104)
+Caused by: java.lang.ArrayIndexOutOfBoundsException
+	at scala.Array$.copy(Array.scala:105)
+	at scala.tools.nsc.interactive.ScratchPadMaker2$Patcher$$anonfun$result$2.apply(ScratchPadMaker2.scala:148)
+	at scala.tools.nsc.interactive.ScratchPadMaker2$Patcher$$anonfun$result$2.apply(ScratchPadMaker2.scala:145)
+	at scala.collection.TraversableLike$WithFilter$$anonfun$foreach$1.apply(TraversableLike.scala:772)
+	at scala.collection.mutable.ResizableArray$class.foreach(ResizableArray.scala:59)
+	at scala.collection.mutable.ArrayBuffer.foreach(ArrayBuffer.scala:47)
+	at scala.collection.TraversableLike$WithFilter.foreach(TraversableLike.scala:771)
+	at scala.tools.nsc.interactive.ScratchPadMaker2$Patcher.result(ScratchPadMaker2.scala:145)
+	at scala.tools.nsc.interactive.ProgramInstrumenter$Instrumenter$.scala$tools$nsc$interactive$ProgramInstrumenter$Instrumenter$$instrumentation(ProgramInstrumenter.scala:43)
+	at scala.tools.nsc.interactive.ProgramInstrumenter$Instrumenter$$anonfun$askInstrumentation$2.apply(ProgramInstrumenter.scala:23)
+	at scala.tools.nsc.interactive.ProgramInstrumenter$Instrumenter$$anonfun$askInstrumentation$2.apply(ProgramInstrumenter.scala:23)
+	at scala.tools.nsc.interactive.Global$$anonfun$respond$1.apply(Global.scala:617)
+	at scala.tools.nsc.interactive.Global$$anonfun$respond$1.apply(Global.scala:617)
+	at scala.tools.nsc.interactive.Global.respondGradually(Global.scala:624)
+	at scala.tools.nsc.interactive.Global.respond(Global.scala:617)
+	at scala.tools.nsc.interactive.ProgramInstrumenter$Instrumenter$.askInstrumentation(ProgramInstrumenter.scala:22)
+	at scala.tools.nsc.interactive.ProgramInstrumenter$$anonfun$askInstrumented$1.apply$mcV$sp(ProgramInstrumenter.scala:59)
+	at scala.tools.nsc.interactive.ProgramInstrumenter$$anonfun$askInstrumented$1.apply(ProgramInstrumenter.scala:59)
+	at scala.tools.nsc.interactive.ProgramInstrumenter$$anonfun$askInstrumented$1.apply(ProgramInstrumenter.scala:59)
+	at scala.tools.nsc.util.InterruptReq.execute(InterruptReq.scala:26)
+	at scala.tools.nsc.interactive.Global.pollForWork(Global.scala:340)
+	at scala.tools.nsc.interactive.Global.checkForMoreWork(Global.scala:401)
+	at scala.tools.nsc.interactive.Global.signalDone(Global.scala:254)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:5652)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedType(Typers.scala:5749)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedType(Typers.scala:5752)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedValDefImpl(Typers.scala:1964)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedValDef(Typers.scala:1955)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5556)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:5630)
+	at scala.tools.nsc.typechecker.Typers$Typer.scala$tools$nsc$typechecker$Typers$Typer$$typedStat$1(Typers.scala:2921)
+	at scala.tools.nsc.typechecker.Typers$Typer$$anonfun$62.apply(Typers.scala:3025)
+	at scala.tools.nsc.typechecker.Typers$Typer$$anonfun$62.apply(Typers.scala:3025)
+	at scala.collection.immutable.List.loop$1(List.scala:170)
+	at scala.collection.immutable.List.mapConserve(List.scala:186)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedStats(Typers.scala:3025)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedTemplate(Typers.scala:1914)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedClassDef(Typers.scala:1751)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5571)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:5630)
+	at scala.tools.nsc.typechecker.Typers$Typer.scala$tools$nsc$typechecker$Typers$Typer$$typedStat$1(Typers.scala:2921)
+	at scala.tools.nsc.typechecker.Typers$Typer$$anonfun$62.apply(Typers.scala:3025)
+	at scala.tools.nsc.typechecker.Typers$Typer$$anonfun$62.apply(Typers.scala:3025)
+	at scala.collection.immutable.List.loop$1(List.scala:170)
+	at scala.collection.immutable.List.mapConserve(List.scala:186)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedStats(Typers.scala:3025)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedTemplate(Typers.scala:1914)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedClassDef(Typers.scala:1751)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5571)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:5630)
+	at scala.tools.nsc.typechecker.Typers$Typer.scala$tools$nsc$typechecker$Typers$Typer$$typedStat$1(Typers.scala:2921)
+	at scala.tools.nsc.typechecker.Typers$Typer$$anonfun$62.apply(Typers.scala:3025)
+	at scala.tools.nsc.typechecker.Typers$Typer$$anonfun$62.apply(Typers.scala:3025)
+	at scala.collection.immutable.List.loop$1(List.scala:170)
+	at scala.collection.immutable.List.mapConserve(List.scala:186)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedStats(Typers.scala:3025)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedPackageDef$1(Typers.scala:5288)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5575)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:5630)
+	at scala.tools.nsc.typechecker.Typers$Typer.scala$tools$nsc$typechecker$Typers$Typer$$typedStat$1(Typers.scala:2921)
+	at scala.tools.nsc.typechecker.Typers$Typer$$anonfun$62.apply(Typers.scala:3025)
+	at scala.tools.nsc.typechecker.Typers$Typer$$anonfun$62.apply(Typers.scala:3025)
+	at scala.collection.immutable.List.loop$1(List.scala:170)
+	at scala.collection.immutable.List.mapConserve(List.scala:186)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedStats(Typers.scala:3025)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedPackageDef$1(Typers.scala:5288)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5575)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:5630)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:5687)
+	at scala.tools.nsc.typechecker.Analyzer$typerFactory$$anon$3.apply(Analyzer.scala:99)
+	at scala.tools.nsc.Global$GlobalPhase.applyPhase(Global.scala:463)
+	at scala.tools.nsc.interactive.Global$TyperRun$$anonfun$applyPhase$1.apply(Global.scala:1157)
+	at scala.tools.nsc.interactive.Global$TyperRun$$anonfun$applyPhase$1.apply(Global.scala:1157)
+	at scala.reflect.internal.SymbolTable.atPhase(SymbolTable.scala:207)
+	at scala.tools.nsc.interactive.Global$TyperRun.applyPhase(Global.scala:1157)
+	at scala.tools.nsc.interactive.Global$TyperRun.typeCheck(Global.scala:1150)
+	at scala.tools.nsc.interactive.Global.scala$tools$nsc$interactive$Global$$typeCheck(Global.scala:586)
+	at scala.tools.nsc.interactive.Global$$anonfun$backgroundCompile$5$$anonfun$apply$7.apply(Global.scala:502)
+	at scala.tools.nsc.interactive.Global$$anonfun$backgroundCompile$5.apply(Global.scala:498)
+	at scala.tools.nsc.interactive.Global$$anonfun$backgroundCompile$5.apply(Global.scala:498)
+	at scala.collection.TraversableLike$WithFilter$$anonfun$foreach$1.apply(TraversableLike.scala:772)
+	at scala.collection.immutable.List.foreach(List.scala:318)
+	at scala.collection.TraversableLike$WithFilter.foreach(TraversableLike.scala:771)
+	at scala.tools.nsc.interactive.Global.backgroundCompile(Global.scala:498)
+	at scala.tools.nsc.interactive.PresentationCompilerThread.run(PresentationCompilerThread.scala:25)
+!SESSION 2013-03-31 19:23:57.135 -----------------------------------------------
+eclipse.buildId=3.0.0-vfinal-20130326-1146-Typesafe
+java.version=1.6.0_33
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_GB
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.scala-ide.sdt.core 1 0 2013-03-31 20:18:17.594
+!MESSAGE Timeout while resolving hyperlink in D:\dev\workspace\coursera\hello-project\src\week1\balance.sc at: offset: 585, length: 0
+
+!ENTRY org.scala-ide.sdt.core 1 0 2013-03-31 20:31:16.825
+!MESSAGE Timeout while resolving hyperlink in D:\dev\workspace\coursera\hello-project\src\week1\balance.sc at: offset: 636, length: 0
+
+!ENTRY org.scala-ide.sdt.core 1 0 2013-03-31 20:31:16.825
+!MESSAGE Timeout while resolving hyperlink in D:\dev\workspace\coursera\hello-project\src\week1\balance.sc at: offset: 624, length: 0
+
+!ENTRY org.scala-ide.sdt.core 1 0 2013-03-31 20:56:14.576
+!MESSAGE Timeout while resolving hyperlink in D:\dev\workspace\coursera\hello-project\src\week1\balance.sc at: offset: 329, length: 0
+
+!ENTRY org.scala-ide.sdt.core 1 0 2013-03-31 21:10:25.832
+!MESSAGE Timeout while resolving hyperlink in D:\dev\workspace\coursera\hello-project\src\week1\balance.sc at: offset: 544, length: 0
+
+!ENTRY org.eclipse.ui 4 4 2013-03-31 22:59:42.654
+!MESSAGE Invalid preference page path: XML Syntax
+!SESSION 2013-04-01 11:23:33.510 -----------------------------------------------
+eclipse.buildId=3.0.0-vfinal-20130326-1146-Typesafe
+java.version=1.6.0_33
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_GB
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.scala-ide.sdt.core 1 0 2013-04-01 23:15:35.243
+!MESSAGE Timeout while resolving hyperlink in D:\dev\workspace\coursera\hello-project\src\week1\coins.sc at: offset: 460, length: 0
+
+!ENTRY org.eclipse.ui 4 4 2013-04-02 00:52:56.927
+!MESSAGE Invalid preference page path: XML Syntax
+!SESSION 2013-04-02 21:58:47.580 -----------------------------------------------
+eclipse.buildId=3.0.0-vfinal-20130326-1146-Typesafe
+java.version=1.6.0_33
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_GB
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.ui 4 4 2013-04-02 23:29:52.312
+!MESSAGE Invalid preference page path: XML Syntax
+!SESSION 2013-04-05 23:21:11.725 -----------------------------------------------
+eclipse.buildId=3.0.0-vfinal-20130326-1146-Typesafe
+java.version=1.6.0_33
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_GB
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.ui 4 4 2013-04-05 23:29:34.552
+!MESSAGE Invalid preference page path: XML Syntax
+!SESSION 2013-04-05 23:29:36.181 -----------------------------------------------
+eclipse.buildId=3.0.0-vfinal-20130326-1146-Typesafe
+java.version=1.6.0_33
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_GB
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.scala-ide.sdt.core 4 0 2013-04-06 00:01:38.007
+!MESSAGE Error during instrumentation of ScriptCompilationUnit(L/hello-project/src/greeter/ScalaWorksheet.sc)
+!STACK 0
+org.scalaide.worksheet.runtime.MissingTopLevelObjectDeclaration: Couldn't find top level object declaration in source ScalaWorksheet.sc
+	at org.scalaide.worksheet.runtime.SourceInstrumenter.instrumentProgram(SourceInstrumenter.scala:34)
+	at org.scalaide.worksheet.runtime.SourceInstrumenter.instrument(SourceInstrumenter.scala:21)
+	at org.scalaide.worksheet.runtime.WorksheetRunner$$anonfun$act$1$$anonfun$apply$1.applyOrElse(WorksheetRunner.scala:59)
+	at scala.runtime.AbstractPartialFunction$mcVL$sp.apply$mcVL$sp(AbstractPartialFunction.scala:33)
+	at scala.runtime.AbstractPartialFunction$mcVL$sp.apply(AbstractPartialFunction.scala:33)
+	at scala.runtime.AbstractPartialFunction$mcVL$sp.apply(AbstractPartialFunction.scala:25)
+	at scala.actors.ReactorTask.run(ReactorTask.scala:31)
+	at scala.actors.Reactor$class.resumeReceiver(Reactor.scala:129)
+	at org.scalaide.worksheet.runtime.WorksheetRunner.scala$actors$InternalReplyReactor$$super$resumeReceiver(WorksheetRunner.scala:33)
+	at scala.actors.InternalReplyReactor$class.resumeReceiver(InternalReplyReactor.scala:59)
+	at org.scalaide.worksheet.runtime.WorksheetRunner.resumeReceiver(WorksheetRunner.scala:33)
+	at scala.actors.InternalActor$class.searchMailbox(InternalActor.scala:76)
+	at org.scalaide.worksheet.runtime.WorksheetRunner.searchMailbox(WorksheetRunner.scala:33)
+	at scala.actors.Reactor$$anonfun$startSearch$1$$anonfun$apply$mcV$sp$1.apply$mcV$sp(Reactor.scala:117)
+	at scala.actors.Reactor$$anonfun$startSearch$1$$anonfun$apply$mcV$sp$1.apply(Reactor.scala:114)
+	at scala.actors.Reactor$$anonfun$startSearch$1$$anonfun$apply$mcV$sp$1.apply(Reactor.scala:114)
+	at scala.actors.ReactorTask.run(ReactorTask.scala:33)
+	at scala.actors.ReactorTask.compute(ReactorTask.scala:63)
+	at scala.concurrent.forkjoin.RecursiveAction.exec(RecursiveAction.java:160)
+	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:262)
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:975)
+	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1478)
+	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:104)
+
+!ENTRY org.eclipse.ui 4 4 2013-04-06 00:02:26.464
+!MESSAGE Invalid preference page path: XML Syntax
+!SESSION 2013-04-10 23:29:33.083 -----------------------------------------------
+eclipse.buildId=3.0.0-vfinal-20130326-1146-Typesafe
+java.version=1.6.0_33
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_GB
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.scala-ide.sdt.core 4 0 2013-04-10 23:31:41.405
+!MESSAGE Error during instrumentation of ScriptCompilationUnit(L/hello-project/src/greeter/ScalaWorksheet.sc)
+!STACK 0
+org.scalaide.worksheet.runtime.MissingTopLevelObjectDeclaration: Couldn't find top level object declaration in source ScalaWorksheet.sc
+	at org.scalaide.worksheet.runtime.SourceInstrumenter.instrumentProgram(SourceInstrumenter.scala:34)
+	at org.scalaide.worksheet.runtime.SourceInstrumenter.instrument(SourceInstrumenter.scala:21)
+	at org.scalaide.worksheet.runtime.WorksheetRunner$$anonfun$act$1$$anonfun$apply$1.applyOrElse(WorksheetRunner.scala:59)
+	at scala.runtime.AbstractPartialFunction$mcVL$sp.apply$mcVL$sp(AbstractPartialFunction.scala:33)
+	at scala.runtime.AbstractPartialFunction$mcVL$sp.apply(AbstractPartialFunction.scala:33)
+	at scala.runtime.AbstractPartialFunction$mcVL$sp.apply(AbstractPartialFunction.scala:25)
+	at scala.actors.ReactorTask.run(ReactorTask.scala:31)
+	at scala.actors.ReactorTask.compute(ReactorTask.scala:63)
+	at scala.concurrent.forkjoin.RecursiveAction.exec(RecursiveAction.java:160)
+	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:262)
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:975)
+	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1478)
+	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:104)
+
+!ENTRY org.eclipse.ui 4 4 2013-04-10 23:33:21.668
+!MESSAGE Invalid preference page path: XML Syntax
+!SESSION 2013-04-11 22:22:17.647 -----------------------------------------------
+eclipse.buildId=3.0.0-vfinal-20130326-1146-Typesafe
+java.version=1.6.0_33
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_GB
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.ui 4 4 2013-04-11 23:40:21.686
+!MESSAGE Invalid preference page path: XML Syntax
+!SESSION 2013-04-15 22:16:06.562 -----------------------------------------------
+eclipse.buildId=3.0.0-vfinal-20130326-1146-Typesafe
+java.version=1.6.0_33
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_GB
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.scala-ide.sdt.core 1 0 2013-04-15 22:38:58.789
+!MESSAGE Timeout while resolving hyperlink in D:\dev\workspace\coursera\funsets\src\test\scala\funsets\FunSetSuite.scala at: offset: 4096, length: 0
+
+!ENTRY org.eclipse.ui 4 4 2013-04-15 23:11:18.041
+!MESSAGE Invalid preference page path: XML Syntax
+!SESSION 2013-04-24 20:33:02.983 -----------------------------------------------
+eclipse.buildId=3.0.0-vfinal-20130326-1146-Typesafe
+java.version=1.6.0_33
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_GB
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.ui 4 4 2013-04-24 22:43:49.070
+!MESSAGE Invalid preference page path: XML Syntax
+!SESSION 2013-04-25 20:15:37.234 -----------------------------------------------
+eclipse.buildId=3.0.0-vfinal-20130326-1146-Typesafe
+java.version=1.6.0_33
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_GB
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.ui 4 0 2013-04-25 22:17:42.574
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Failed to execute runnable (org.eclipse.jface.text.BadPositionCategoryException)
+	at org.eclipse.swt.SWT.error(SWT.java:4282)
+	at org.eclipse.swt.SWT.error(SWT.java:4197)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:138)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4140)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3757)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2701)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2665)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2499)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:679)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:668)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:123)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:344)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:622)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:577)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1410)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1386)
+Caused by: org.eclipse.jface.text.BadPositionCategoryException
+	at org.eclipse.jface.text.AbstractDocument.removePositionCategory(AbstractDocument.java:1138)
+	at scala.tools.eclipse.ui.ScalaCompletionProposal$$anon$2.left(ScalaCompletionProposal.scala:183)
+	at org.eclipse.jface.text.link.LinkedModeModel.exit(LinkedModeModel.java:341)
+	at org.eclipse.jface.text.link.LinkedModeUI$4.run(LinkedModeUI.java:1194)
+	at org.eclipse.jface.text.link.LinkedModeUI.leave(LinkedModeUI.java:1204)
+	at org.eclipse.jface.text.link.LinkedModeUI$ExitListener.resume(LinkedModeUI.java:222)
+	at org.eclipse.jface.text.link.LinkedModeModel.resume(LinkedModeModel.java:728)
+	at org.eclipse.jface.text.link.LinkedModeModel.exit(LinkedModeModel.java:346)
+	at org.eclipse.jface.text.link.LinkedModeUI$4.run(LinkedModeUI.java:1194)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:135)
+	... 23 more
+
+!ENTRY org.eclipse.ui 4 4 2013-04-25 22:33:18.308
+!MESSAGE Invalid preference page path: XML Syntax
